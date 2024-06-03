@@ -1,0 +1,12 @@
+<ul class="leftul">
+                         <li class="sign selc"> <select class="drop">
+                                   <option>English</option>
+                                   <option>Español</option>
+                                   <option>Português</option>
+                                   <option>Français</option>
+                                   <option>Indonesia</option>
+                                   <option>한국어</option>
+                                   <option>中文</option>
+                                   <option>日本語</option>
+                    </ul>
+                    </select></li>

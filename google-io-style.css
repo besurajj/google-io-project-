@@ -1,0 +1,541 @@
+* {
+     padding: 0px;
+     margin: 0px;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     list-style: none;
+     text-decoration: none;
+     background-color: #202124;
+     box-sizing: border-box;
+     max-width: 1200vmax;
+    
+}
+
+.inside-nav {
+     display: flex;
+     background-color: #202124;
+     /* border: 1px solid red; */
+     height: 8vh;
+     align-items: center;
+     box-sizing: content-box;
+}
+.options{
+     width: 90%;
+
+}
+.nav-ul {
+     display: inline-flex;
+     color: white;
+     /* border: 1px solid red; */
+}
+.nav-ul li {
+     padding: 15px;
+     font-size: small;
+}
+option {
+     color: white;
+     /* background-color: #202124; */
+}
+
+
+.select-opt select{
+     margin: 0px 20px 0px 0px;
+     color: white;
+     font-size: 15px;
+     border: 0px;
+     size: 10px;
+     background-color: transparent;
+     /* border: 1px solid red; */
+     
+}
+
+input {
+     border: 1px solid black;
+     /* box-sizing: content-box; */
+     background-color: transparent;
+     color: white;
+     font-size: medium;
+}
+
+#frst-div {
+     display: grid;
+grid-template-columns: 50% 50%;
+     /* grid-template-rows: 0% 50%; */
+
+     grid-auto-flow: column;
+     /* height: 20vh; */
+     width: 97vw;
+     margin: auto;
+     margin-top: 3%;
+     color: white;
+     border: 3px solid white;
+     /* margin-bottom: 20px; */
+     border-radius: 20px;
+     overflow: hidden;
+}
+
+.image {
+     border-radius: 20px;
+}
+
+.content {
+     margin-top: 20px;
+     margin-left: 30px;
+     font-weight: 300;
+     font-size: 5vmax;
+     /* border: 1px solid red; */
+     overflow: hidden;
+}
+
+.inner-content {
+     word-spacing: .5vmax;
+     font-weight: 300;
+     margin-top: 20px;
+     font-size: 20px;
+}
+.btn-div{
+     overflow: hidden;
+}
+
+#watch-btn {
+     /* margin-bottom: 0px; */
+     height: 50px;
+     width: 170px;
+     margin-top: 6vmax;
+     border-radius: 10px;
+     background-color: rgb(66 142 255);
+     color: black;
+     font-size: large;
+     font-weight: 500;
+     overflow: hidden;
+}
+#watch-btn:hover {
+     background-color: rgb(114, 163, 237);
+}
+.second-div {
+   display: flex;
+    flex-direction: row;
+    gap: 1rem;
+     max-width: 97vw;
+     margin: auto;
+     margin-top: 3%;
+     border-radius: 20px;
+}
+
+.box {
+     /* border: 1px solid white; */
+     height: 55vh;
+     /* height: 100%; */
+     width: 100%;
+     color: white;
+     border-radius: 20px;
+     overflow: hidden;
+}
+
+.box-1 {
+     background-image: url(connect-developers-desktop-light.svg);
+     background-color: white;
+     background-repeat: no-repeat;
+     background-position: top left 150px;
+     background-size: 44vmax;
+    /* background-size: cover; */
+     color: black;
+     width: 100%;
+     box-sizing: border-box;
+     overflow: hidden;
+}
+
+.box-1 h2 {
+
+     background: 0px;
+     font-size: 2em;
+     margin-left: 2vmax;
+     font-weight: 500;
+     margin-top: 3vmax;
+     overflow: hidden;
+}
+
+.box-1 div {
+     background: none;
+     font-size: 1.2em;
+     margin-left: 2vmax;
+     line-height: 1.8vmax;
+     /* line-break: inherit; */
+     /* border: 1px solid black; */
+     overflow: hidden;
+
+}
+#find{
+     background-color: transparent;
+     border: 2px solid black;
+     height: 5vmax;
+     width: 12vmax;
+     margin: 4vmax 0 0 2vmax;
+     border-radius: 10px;
+     font-size: 1.5vmax;
+     text-align: left;
+     line-height: 1.4vmax;
+     padding-left: 1vmax;
+     overflow: hidden;
+}
+
+#find:hover {
+     background-color: rgb(66 142 255);
+}
+
+.box-2 {
+     background-color: rgb(66 142 255);
+     background-image: url(browse-topics.svg);
+     background-size: 21vmax;
+     background-repeat: no-repeat;
+     background-position: center right 40px;
+     overflow: hidden;
+}
+
+.box-2 h2 {
+     background-color: transparent;
+     color: black;
+     margin-top: 3vmax;
+     margin-left: 2vmax;
+     font-size: 2em;
+     font-weight: 500;
+     overflow: hidden;
+}
+
+.box-2 div {
+     background-color: transparent;
+     color: black;
+     font-size: 1.2em;
+     margin-left: 2vmax;
+     margin-top: 1.8vmax;
+     overflow: hidden;
+}
+
+#browse {
+     background-color: transparent;
+     border: 2px solid black;
+     height: 45px;
+     width: 150px;
+     border-radius: 10px;
+     font-size: 1.2em;
+     margin-top: 14vmax;
+     margin-left: 2vmax;
+     overflow: hidden;
+     /* font-weight: bold; */
+}
+
+#browse:hover {
+     background-color: white;
+}
+
+.third-main-div {
+     display: flex;
+     flex-direction: row;
+     /* padding: 20px; */
+     margin: auto;
+     justify-content: space-between;
+     grid-gap: px;
+     /* border: 3px solid white; */
+     height: 50vh;
+     width: 90vw;
+     margin-top: 60px;
+}
+
+.third-main-div {
+
+     max-width: 100%;
+     gap: 5vmax;
+     height: 50vh;
+     object-fit: cover;
+     border-radius: 20px;
+     /* border: 1px solid red; */
+     box-sizing: border-box;
+
+}
+
+.recaps {
+   
+     padding: 20px;
+     height: 35vh;
+     width: 95%;
+     border-radius: 20px;
+}
+.recap-videos,.google,.developer {
+     color: white;
+     margin-top: 10px;
+     font-size: 1.3em;
+
+}
+.keynote-image{
+     max-width: 100%;
+     height: 100px;
+     object-fit: cover;
+}
+
+/* Third main div code start form here */
+.fourth-main{
+     display: flex;
+flex-direction: row;
+gap: 3vmax;
+     /* border: 2px solid white; */
+     margin:auto;
+     width: 90%;
+     height: 40vh;
+     box-sizing: border-box;  
+}
+.fourth-heading{
+     display: flex;
+     flex-direction: row;
+     box-sizing: border-box;
+     justify-content: space-between;
+     
+}
+.view{
+     margin-right: 4vmax;
+     color: rgb(66 142 255);
+     margin-top: 2vmax;
+}
+.dev{
+     margin-left:3vmax;
+     margin-bottom: 3vmax;
+     color:white;
+     font-size: 3.5em;
+     font-weight: 300;
+}
+.elements{
+     /* border: 2px solid white; */
+     width: 50%;
+     /* height: 80%; */
+     overflow: hidden;
+
+}
+.elements h3{
+     color:white;
+     font-size: 2em;
+     font-weight:400;
+     margin-top: 15px;
+}
+.elements p{
+     color: white;
+
+}
+
+/* fifth main */
+.five-heading{
+     display: flex;
+     flex-direction: row;
+     color:white;
+     justify-content: space-between;
+     overflow: hidden;
+}
+.grow{
+     margin-left: 3vmax;
+     margin-top: 4vmax;
+     margin-bottom: 3vmax;
+          font-size: 3em;
+          font-weight: 300;
+        
+}
+.view2{
+     margin-right: 4vmax;
+          color: rgb(66 142 255);
+          margin-top: 6vmax;
+}
+.fifth-main{
+   display: flex;
+   flex-direction: row;
+   gap: 2vmax;
+     margin: auto;
+     height: 32vh;
+     width: 90%;   
+     /* border: 2px solid white; */
+     box-sizing: border-box;
+}
+.five{
+     background-color: white;
+     height: 100%;
+     width: 100%;
+     border: 1px solid white;
+     border-radius: 20px;
+     overflow: hidden;
+}
+.five h3{
+     background-color: transparent;
+     font-size: 1.5em;
+     font-weight: 450;
+     margin-left: 1.5vmax;
+     margin-top: 1.5vmax;
+     overflow: hidden;
+}
+
+.five p{
+background-color: transparent;
+margin-top: 1vmax;
+margin-left: 1.5vmax;
+overflow: hidden;
+}
+/* last div */
+.last-div{
+     border: 2px solid white;
+     position: relative;
+     height: 45vh;
+     width: 95%;
+     margin: auto;
+     margin-top: 5vmax;
+     border-radius: 20px;
+     
+}
+.last-heading{
+     background-color: transparent;
+     color: white;
+     position: absolute;
+     font-size: 3.7em;
+     font-weight: 400;
+     z-index: 10;
+     margin-left: 3vmax;
+     margin-top: 2vmax;
+     overflow: hidden;
+}
+
+/* footer part */
+footer{
+     margin-top: 40px;
+     /* border-top: 2px solid rgb(154 160 166); */
+     box-sizing: border-box;
+     overflow: hidden;
+}
+.main-foot{
+     display: grid;
+grid-template-columns: 70% 50%;
+/* justify-content: space-between; */
+grid-auto-flow: column;   
+}
+.foot{
+     /* border: 1px solid white; */
+     height: 100%;
+     width: 100%;
+     /* width: 100%; */
+     height: 15vh;
+     align-content: center;
+     margin-right: 50px;
+     
+     
+}
+
+
+ .foot-content li{
+     color: rgb(154 160 166);
+     font-size: .8em;
+ }
+
+.foot-content{
+     display: inline-flex;
+     color: white;
+     margin-left: 4vmax;
+}
+
+.google {
+     font-weight: 600;
+     font-size: 1.9em;
+     margin-top: -2px;
+}
+.foot-content li{
+margin-right: 20px;
+
+}
+.Drop {
+color: rgb(154 160 166);
+border: 0px;
+border-bottom: 2px solid rgb(154 160 166);
+grid-auto-flow: column;
+width: 13vmax;
+height: 2vmax;
+margin-top: -5px;
+}
+.foot-2{
+     overflow: hidden;
+     margin-left: 5vmax;
+   
+}
+.images-foot{
+
+width: 50%;
+margin-left: 9.3vmax;
+
+}
+.images-foot img{
+    margin-left: 5px;
+}
+
+.element-1:hover{
+     border: 2px solid white;
+     box-sizing: border-box;
+     border-radius: 10px;
+}
+.element-2:hover{
+     border: 2px solid white;
+     box-sizing: border-box;
+     border-radius: 10px;
+     /* transform: scale(1.2); */
+}
+.element-3:hover{
+     border: 2px solid white;
+     box-sizing: border-box;
+     border-radius: 10px;
+}
+.element-4:hover{
+     border: 2px solid white;
+     box-sizing: border-box;
+     border-radius: 10px;
+}
+.image-mobile:hover{
+content: url('stacks_mobile-hover.svg');
+}
+.image-mobile2:hover{
+   
+content: url('stacks_web-hover.svg');
+
+
+}
+.image-mobile3:hover{
+content: url('stacks_ai-hover.svg');
+}
+.image-mobile4:hover{
+content: url('stacks_cloud-hover.svg');
+}
+
+.view:hover{
+text-decoration: underline;
+}
+.view2:hover{
+text-decoration: underline;
+}
+
+/* Hover Start Here */
+.recap-1:hover {
+border: 2px solid white;
+     box-sizing: border-box;
+     padding: 20px;
+     height: 35vh;
+     width: 95%;
+}
+
+.recap-2:hover {
+border: 2px solid white;
+
+     box-sizing: border-box;
+     padding: 20px;
+     height: 35vh;
+     width: 95%;
+}
+.recap-2:hover::after{
+     padding: 20px;
+}
+
+.recap-3:hover {
+border: 2px solid white;
+     box-sizing: border-box;
+     padding: 20px;
+     height: 35vh;
+     width: 95%;
+}
+
